@@ -50,7 +50,7 @@ Single user: `GET /api/users/{user.id}`
 
 Create user: `POST /api/users` Body: `User`
 
-Update user: `PUT/PATCH /api/users` Body: `{id: user.id, ...}`
+Update user: `PUT/PATCH /api/users/{user.id}` Body: `{id: user.id, ...}`
 
 Delete user: `DELETE /api/users/{user.id}`
 
@@ -61,6 +61,6 @@ Single appointment: `GET /api/appointments/{appointment.id}`
 
 Create appointment: `POST /api/appointments` Body: `Appointment`
 
-Update appointment: `PUT/PATCH /api/appointments` Body: `{id: appointment.id, ...}`
+Update appointment: `PUT/PATCH /api/appointments/{appointment.id}` Body: `{id: appointment.id, ...}`
 
 Delete appointment: `DELETE /api/appointments/{appointment.id}`
